@@ -4,7 +4,7 @@ import json
 import asyncio
 Token = "ODUyNzg4NDA2OTMzMzg5MzMy.YXed2w.EYtJSPXe2Ussk64eKfGcg8XsAUs"
 
-client = commands.Bot(command_prefix='.m',self_bot=True)
+client = commands.Bot(command_prefix='.c',self_bot=True)
 
 @client.event
 async def on_ready():
