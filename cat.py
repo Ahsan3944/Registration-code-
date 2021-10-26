@@ -10,8 +10,8 @@ client = commands.Bot(command_prefix='.c',self_bot=True)
 async def on_ready():
 	print(f"Name - {client.user.name}\nID - {client.user.id}\nBot is working...")
 	await client.change_presence(status = discord.Status.dnd)
-	ch = client.get_channel(876519671086604368)
-	await ch.send("<@834974192356294716>\n🤖 *Bot restarted!!*")
+	ch = client.get_channel(884152576138965022)
+	await ch.send("<@853809831668350977>\n🤖 *Bot restarted!!*")
 	
 
 #				[ Channel Codes ]		  	#
