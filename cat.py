@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import asyncio
-Token = "ODY5NzkyNTYxMzExNjc4NDg0.YU1WYw.janumPPG3GZrRo-GdDehXegF57A"
+Token = "ODUyNzg4NDA2OTMzMzg5MzMy.YXed2w.EYtJSPXe2Ussk64eKfGcg8XsAUs"
 
 client = commands.Bot(command_prefix='.m',self_bot=True)
 
