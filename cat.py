@@ -375,7 +375,7 @@ async def on_command_error(ctx, error):
 	elif isinstance(error, commands.CommandInvokeError):
 		await ctx.reply("```\n❓ Invalid Syntax```")
 	else :
-		ch = client.get_channel(883965820122832896)
-		await ch.send(f"<@834974192356294716>\n{error}")	 					 					 		
+		ch = client.get_channel(902549553885110293)
+		await ch.send(f"<@853809831668350977>\n{error}")	 					 					 		
 				
 client.run(Token, bot=False)
